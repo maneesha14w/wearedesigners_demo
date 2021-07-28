@@ -4,7 +4,7 @@ import 'package:rflutter_alert/rflutter_alert.dart';
 
 IconButton customBackButton(BuildContext context) {
   return IconButton(
-    padding: EdgeInsets.only(top: 50.0),
+    padding: EdgeInsets.only(bottom: 150.0),
     icon: Icon(FontAwesomeIcons.chevronLeft),
     onPressed: () {
       Alert(

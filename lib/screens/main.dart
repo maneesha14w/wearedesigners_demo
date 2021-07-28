@@ -13,9 +13,7 @@ class Demo extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'wearedesigners Demo',
-      theme: ThemeData(
-        backgroundColor: kBackgroundColour,
-      ),
+      theme: ThemeData(scaffoldBackgroundColor: kBackgroundColour),
       home: HomePage(),
     );
   }

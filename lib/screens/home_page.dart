@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:wearedesigners_demo/widgets/customBackButton.dart';
+import 'package:wearedesigners_demo/constants.dart';
+import 'package:wearedesigners_demo/widgets/custom_back_btn.dart';
+import 'package:wearedesigners_demo/widgets/image_and_text.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -11,13 +12,15 @@ class HomePage extends StatelessWidget {
         body: Column(
           children: [
             Row(
-              //mainAxisAlignment: MainAxisAlignment.,
+              mainAxisAlignment: MainAxisAlignment
+                  .spaceBetween, //to push the image to the right edge
               children: [
                 customBackButton(context),
-                Text(
-                  'Hello',
-                  style: GoogleFonts.lato(fontSize: 25.0),
-                )
+                ImageAndTextWidget(
+                  image: kWatchImage,
+                  title: kImageExampleTitle,
+                  bio: kImageExampleBio,
+                ),
               ],
             )
           ],
