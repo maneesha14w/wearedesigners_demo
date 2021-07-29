@@ -1,3 +1,5 @@
+// the main page of the app
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:wearedesigners_demo/constants.dart';

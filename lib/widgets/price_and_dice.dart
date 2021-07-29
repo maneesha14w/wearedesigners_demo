@@ -1,3 +1,4 @@
+// the row of price and my custom_icon_btn where price is customizable and colours and styling can be changed in the constants file
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:wearedesigners_demo/constants.dart';

@@ -1,3 +1,5 @@
+// the large body of text giving a description of the watch.
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

@@ -1,3 +1,5 @@
+// a custom divider where you can customize the entire divider and the spacing above it.
+
 import 'package:flutter/material.dart';
 import 'package:wearedesigners_demo/constants.dart';
 

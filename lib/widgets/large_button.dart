@@ -1,3 +1,5 @@
+// the large button the bottom of the screen. Button colour, text and the icon are customizable.
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

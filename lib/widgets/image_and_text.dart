@@ -1,3 +1,5 @@
+// the image with text on a stack; image title and subtext is customizable
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:wearedesigners_demo/constants.dart';

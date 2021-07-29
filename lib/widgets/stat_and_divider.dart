@@ -1,3 +1,5 @@
+// combines the stat and custom divider to make one row of the stat on top of the divider. the texts are customizable from constants.
+
 import 'package:flutter/material.dart';
 import 'package:wearedesigners_demo/constants.dart';
 import 'package:wearedesigners_demo/widgets/stat.dart';

@@ -1,3 +1,5 @@
+// the row that displays the two stats about the stats, both the stats and the spacing in between is customizable.
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:wearedesigners_demo/constants.dart';
