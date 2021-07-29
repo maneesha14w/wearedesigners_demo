@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rflutter_alert/rflutter_alert.dart';
+import 'package:wearedesigners_demo/constants.dart';
 
 IconButton customIconButton(
     BuildContext context, Icon passedIcon, Color colour) {
@@ -7,11 +7,7 @@ IconButton customIconButton(
     icon: passedIcon,
     color: colour,
     onPressed: () {
-      Alert(
-              context: context,
-              title: "Hello!",
-              desc: "You've pressed a button :)")
-          .show();
+      kOnPress(context);
     },
   );
 }
