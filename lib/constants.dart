@@ -33,3 +33,11 @@ const kImageCardBioTextStyle =
     TextStyle(fontSize: 18.0, color: kImageTextColour);
 const kImageExampleTitle = 'Nixon';
 const kImageExampleBio = 'Men\'s C39 Leather White Dial';
+
+const kDescriptionBio =
+    'The Nixon, C39 Leather series features a stainless steel 39mm case, with a fixed bezel, a white dial and a scratch resistant mineral crystal, sub-dials: one 60 Second, The 18mm leather band is fitted with a buckle clasp. This is beautiful wristwatch. \n\n  2 Year Watch Center Warranty and keep receipt';
+const kDescriptionBioStyle = TextStyle(
+  fontWeight: FontWeight.bold,
+  fontSize: 12,
+  color: kLightStatColour,
+);

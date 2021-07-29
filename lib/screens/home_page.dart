@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:wearedesigners_demo/constants.dart';
+import 'package:wearedesigners_demo/widgets/bio.dart';
 import 'package:wearedesigners_demo/widgets/custom_icon_btn.dart';
 import 'package:wearedesigners_demo/widgets/image_and_text.dart';
 import 'package:wearedesigners_demo/widgets/price_and_dice.dart';
@@ -35,6 +36,12 @@ class HomePage extends StatelessWidget {
               price: kPrice,
             ),
             StatsWithDivider(),
+            SizedBox(
+              height: 25.0,
+            ),
+            Bio(
+              bioText: kDescriptionBio,
+            ),
           ],
         ),
       ),
