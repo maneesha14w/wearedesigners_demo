@@ -25,14 +25,14 @@ class ImageAndTextWidget extends StatelessWidget {
           ),
         ),
         Container(
-          padding: EdgeInsets.only(left: 10.0, top: 85.0),
+          padding: EdgeInsets.only(left: 10.0, top: 73.0),
           child: Text(
             title,
             style: GoogleFonts.spectral(textStyle: kImageCardTitleTextStyle),
           ),
         ),
         Container(
-          padding: EdgeInsets.only(left: 10.0, top: 150.0),
+          padding: EdgeInsets.only(left: 10.0, top: 120.0),
           child: Text(
             bio,
             style: GoogleFonts.karla(textStyle: kImageCardBioTextStyle),

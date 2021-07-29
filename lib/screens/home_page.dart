@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:wearedesigners_demo/constants.dart';
-import 'package:wearedesigners_demo/widgets/custom_back_btn.dart';
+import 'package:wearedesigners_demo/widgets/custom_icon_btn.dart';
 import 'package:wearedesigners_demo/widgets/image_and_text.dart';
+import 'package:wearedesigners_demo/widgets/price_and_dice.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -15,14 +16,23 @@ class HomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment
                   .spaceBetween, //to push the image to the right edge
               children: [
-                customBackButton(context),
+                Padding(
+                  padding: EdgeInsets.only(bottom: 150.0),
+                  child: customIconButton(context, kBackIcon, Colors.black),
+                ),
                 ImageAndTextWidget(
                   image: kWatchImage,
                   title: kImageExampleTitle,
                   bio: kImageExampleBio,
                 ),
               ],
-            )
+            ),
+            SizedBox(
+              height: 35.0,
+            ),
+            PriceAndDice(
+              price: kPrice,
+            ),
           ],
         ),
       ),
