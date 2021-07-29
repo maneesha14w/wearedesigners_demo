@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:wearedesigners_demo/constants.dart';
 
+import 'custom_icon_btn.dart';
+
 class PriceAndDice extends StatelessWidget {
   final price;
 
@@ -19,7 +21,7 @@ class PriceAndDice extends StatelessWidget {
             style: GoogleFonts.karla(textStyle: kPriceStyle),
           ),
           SizedBox(
-            width: 180.0,
+            width: 150.0,
           ),
           customIconButton(context, kDiceIcon, kDiceColour),
         ],

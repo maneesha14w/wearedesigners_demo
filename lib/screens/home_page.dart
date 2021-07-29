@@ -4,6 +4,7 @@ import 'package:wearedesigners_demo/constants.dart';
 import 'package:wearedesigners_demo/widgets/custom_icon_btn.dart';
 import 'package:wearedesigners_demo/widgets/image_and_text.dart';
 import 'package:wearedesigners_demo/widgets/price_and_dice.dart';
+import 'package:wearedesigners_demo/widgets/stat_and_divider.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -28,11 +29,12 @@ class HomePage extends StatelessWidget {
               ],
             ),
             SizedBox(
-              height: 35.0,
+              height: 25.0,
             ),
             PriceAndDice(
               price: kPrice,
             ),
+            StatsWithDivider(),
           ],
         ),
       ),
